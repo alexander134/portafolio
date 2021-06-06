@@ -1,0 +1,111 @@
+/* --------------------------Header------------------------------- */
+.header {
+  min-height: 60px;
+  display: flex;
+  background-color: #3f4c48;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.headerMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 0 20%;
+}
+
+.header .headerNav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.header .headerNav a:hover {
+  transition: 150ms;
+  border: 2px solid white;
+}
+
+.headerMenuLogo img {
+  width: 150px;
+  object-fit: contain;
+  margin: 0 20px;
+}
+/* -------------------------Home----------------------------- */
+.home {
+  /* background-color: #133457; */
+}
+
+.homeBanner {
+  background-image: url("./imagenes/presentacion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -55px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0px 16%; */
+  height: 500px;
+}
+
+.homeBanner h1 {
+  font-size: 4rem;
+  text-shadow: 5px 6px #06101b;
+}
+
+.homeSubBanner {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.homeContent {
+  margin-top: 2rem;
+  padding: 0 10%;
+}
+
+.homeContentTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.homeContentData {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.homeContentData div {
+  display: flex;
+  flex-grow: 1;
+  width: 31%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  background: tomato;
+  margin: 1%;
+}
+
+.homeContentData div a {
+  color: white;
+  text-decoration: none;
+}
+
+/* --------------------------------footer---------------------------------- */
+.footer {
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 11%;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+}
