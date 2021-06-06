@@ -10,7 +10,7 @@ function Home() {
             <div className="homeSubBanner">
                 <p>Programador | Analista | TeamLeader</p>
             </div>
-            <div className="homeContent">
+            <div className="homeContent" id="proyectos">
                 <div className="homeContentTitle">
                     <h2>Proyecto Creados</h2>
                 </div>
@@ -31,7 +31,7 @@ function Proyecto(props){
     const {numeroProyecto}=props
     return(
         <div>
-            <a href="">
+            <a href="/">
                 <h3>Proyecto {numeroProyecto}</h3>
             </a>
         </div>
